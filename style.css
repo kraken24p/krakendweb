@@ -108,13 +108,22 @@ nav ul li a{
     margin-top: 15px;
 
 }
-@media screen and (max-width: 770PX){
+@media screen and (max-width: 770px){
     .banner-text h1{
-        font-size: 44px;
+        font-size: 36px;
+        padding: 0 20px;
     }
-    .banner-btn{
+    .banner-text p {
+        font-size: 16px;
+        padding: 0 20px;
+    }
+    .banner-btn {
+        padding: 0 20px;
+    }
+    .banner-btn a {
         display: block;
-        margin: 20px auto;
+        margin: 10px auto;
+        width: 200px;
     }
     .logo {
         width: 60px;
@@ -188,11 +197,22 @@ hr{
     opacity: 1;
 }
 @media screen and (max-width: 770px){
-    .single-service{flex-basis: 100%;
-    margin-bottom: 30px;
+    .service-box {
+        width: 95%;
+        padding: 20px 10px;
+    }
+    .single-service {
+        flex-basis: 100%;
+        margin-bottom: 30px;
+    }
+    .service-desc {
+        width: 90%;
+    }
+    .service-desc h3 {
+        font-size: 18px;
     }
     .service-desc p{
-        font-size: 12px;
+        font-size: 13px;
     }
     hr{
         margin: 5px auto;
@@ -620,7 +640,8 @@ figcaption a:hover {
 @media screen and (max-width: 770px) {
     .projects-container {
         grid-template-columns: 1fr;
-        width: 90%;
+        width: 95%;
+        padding: 20px 10px;
     }
     
     .project-img {
@@ -683,10 +704,20 @@ figcaption a:hover {
     transform: translateY(-7px);
 }
 @media screen and (max-width: 770px){
-    .testimonial-col{
-        flex-basis: 100%;
+    .testimonial-row {
+        width: 95%;
+        padding: 20px 10px;
     }
-    
+    .testimonial-col {
+        padding: 15px;
+        margin-bottom: 20px;
+    }
+    .user-info h4 {
+        font-size: 16px;
+    }
+    .testimonial-col p {
+        font-size: 13px;
+    }
 }
 /*--advertisement section--*/
 #advertisement-section {
@@ -764,7 +795,8 @@ figcaption a:hover {
 @media screen and (max-width: 770px) {
     .ads-container {
         grid-template-columns: 1fr;
-        width: 90%;
+        width: 95%;
+        padding: 20px 10px;
     }
     
     .ads-card img {
